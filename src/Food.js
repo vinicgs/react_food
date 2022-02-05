@@ -43,7 +43,7 @@ const Food = () => {//food component
 					</ul>
 
 					<form className='form_1' onSubmit={submitForm}>
-						{/* // onSubmit event handler to call the function getRecipe when the form is submitted  */}
+						{/*  // onSubmit event handler to call the function getRecipe when the form is submitted  */}
 						<input type="text" placeholder='enter the name of the product' value={query} onChange={e => setQuery(e.target.value)} />{/* input field to enter the name of the product */}
 						<button type='submit' className='button-1'>Search</button>
 					</form>
