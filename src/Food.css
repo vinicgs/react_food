@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
+
+
+.header{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.729), rgba(0, 0, 0, 0.788)), url(./images/bg1.jpg);
+    background-size: cover;
+    overflow: hidden;
+    font-family: 'Roboto Mono', monospace;
+}
+
+input {
+    border-radius: 20px;
+    border: none;
+    height: 3rem;
+     font-family: 'Roboto Mono', monospace;
+}
+
+
+.nav {   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    height: 120px;
+    overflow: hidden;
+    background-color: #470D21;
+    
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+    box-shadow: #000 0px 0px 10px;
+}
+
+.nav a:hover {
+
+color: #ffeed3;
+}
+
+.content {
+    margin-top: 10rem;
+
+}
+
+.logo {
+width: 100px;
+}
+
+.img1{
+    width: 100%;
+    height: 50%;
+    border-radius: 29px
+}
+
+.ul{
+    list-style: none;
+    display:flex;
+}
+
+ul li a{
+    text-decoration: none;
+    margin: 0 1.5rem;
+    color: #fff;
+    text-transform: toUpperCase;
+    font-size: 1.5rem;
+}
+
+.form_1{
+    width: 50%;
+    display: flex;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+}
+
+.button-1{
+    padding: 0 1.5rem;
+    background: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px solid;
+    cursor: pointer;
+    border-radius: 20px;
+    font-family: 'Roboto Mono', monospace;
+} 
+
+.total{
+    display: flex;
+    align-items: center;
+    padding: 0.8rem;
+    height: 20px;
+    overflow: hidden;
+    background-color: #470D21;
+    justify-content: center;
+
+    position: fixed; 
+    bottom: 0; 
+    width: 100%;
+    box-shadow: #000 0px 0px 10px;
+}
+
+.button-1:hover{
+    background: #fff;
+    color: #000;
+    transition:1s;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text h1 {
+    font-size: 60px;
+    color: #fff;
+    text-shadow: rgb(0, 0, 0) 0px 0px 4px;
+}
+
+.span-h1{
+    color:#F9E4D4;
+    text-shadow: rgb(0, 0, 0) 0px 0px 4px;
+    
+}
+
+.print{
+    margin: 5rem;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    justify-content: center;
+    
+    gap: 2rem; /* gap between the columns */
+    
+}
+
+.product{
+    background-color: #000000b5;
+    padding: 15px;
+    width: 280px;
+    align-items: center;
+    border-radius: 20px;
+
+}
+
+
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+img{
+    
+    width: 70%;
+    border-radius: 20px;
+}
+
+.button-2{
+    margin: 15px;
+    padding: 5px 15px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+    cursor:pointer;
+    border-radius: 20px;
+}
+
+
+
+p{
+    color:#ffeed3;
+    font-weight: bolder;
+}
+span{
+    color: #D67D3E;
+    font-weight: bolder;
+}
+
+.a-2{
+    text-decoration: none;
+    color: #9C0F48;
+
+}
+
+.button-2:hover{
+    background-color: #9C0F48;
+    color: #fff;
+    transition:1s;
+}
